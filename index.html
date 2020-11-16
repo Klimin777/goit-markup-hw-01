@@ -1,91 +1,117 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="../style.css">
     <title>Web studio</title>
 </head>
 
 <body>
-    <header>
+    <header class="header">
 
-      <section>
-            <a href="#">WebStudio</a>
-            <nav>
-                <Ul>
-                    <li>Студия</li>
-                    <li>Портфолия</li>
-                    <li>Контакты</li>
-                </Ul>
-            </section>
-        </nav>
-        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a href="tel:+380961111111">+38096 111 11 11</a>
-    <content>
+        <section class="logo">
+            <a href="../index.html" aria-label="логотип сайта" lang="EN"><span class="logo_color">Web</span>Studio</a>
+        </section>
         <section>
-            <h1>Эффективные решения для вашего бизнеса</h1>
-            <a href="#">заказать услугу</a>
+            <nav class="nav">
+                <Ul>
+                    <li class="nav_menu_button">
+                        <a href="../index.html">Студия</a>
+                    </li>
+                    <li class="nav_menu_button">
+                        <a href="../portfolio.html">Портфолио</a>
+                    </li>
+                    <li class="nav_menu_button">
+                        <a href="../contakt.html">Контакты</a>
+                    </li>
+                </Ul>
+            </nav>
+        </section>
+        <address class="nav_button">
+            <ul>
+                <li>
+                    <a class="mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                </li>
+                <li>
+                    <a class="tel" href="tel:+380961111111">+38096 111 11 11</a>
+                </li>
+            </ul>
+        </address>
+    </header>
+    <main>
+        <section class="block">
+            <section class="block-text">
+                <h1>"Эффективные решения для вашего бизнеса"</h1>
+            </section>
+            <section class="block-but">
+                <a href="#">заказать услугу</a>
+            </section>
         </section>
         <section>
             <ul>
                 <li>
                     <h3>Внимание к деталям</h3>
+                    <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                 </li>
-                <li>Идейные соображения, а также начало повседневной работы по формированию позиции.</li>
                 <li>
                     <h3>Пунктуальность</h3>
+                    <p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                 </li>
-                <li>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</li>
                 <li>
                     <h3>Планирование</h3>
+                    <p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                 </li>
-                <li>Равным образом консультация с широким активом в значительной степени обуславливает.</li>
                 <li>
                     <h3>Современные технологии</h3>
+                    <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                 </li>
-                <li>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</li>
             </ul>
         </section>
         <section>
-            <h1>Чем мы занимаемся</h1>
-            <img src="img/img1.png" alt="описание структуры сайта" width="370px">
-            <img src="img/img2.png" alt="тестирование сайта на мобильном приложении" width="370px">
-            <img src="img/img3.png" alt="подбор цветовой гаммы сайта" width="370px">
+            <h2>Чем мы занимаемся</h2>
+            <ul>
+                <li><img src="../img/img1.png" alt="описание структуры сайта" width="370"></li>
+                <li><img src="../img/img2.png" alt="тестирование сайта на мобильном приложении" width="370"></li>
+                <li><img src="../img/img3.png" alt="подбор цветовой гаммы сайта" width="370"></li>
+            </ul>
         </section>
         <section>
-            <h2>Наша команда</h2>
-            <section>
-                <img src="img/img4.jpg" alt="Игорь Демьяненко, Product Designer" width="270px">
-                <h4>Игорь Демьяненко</h4>
-                <p>Product Designer</p>
-            </section>
+            <h3>Наша команда</h3>
+            <ul>
+                <li>
+                    <img src="../img/img4.jpg" alt="Игорь Демьяненко, Product Designer" width="270">
+                    <h4>Игорь Демьяненко</h4>
+                    <p>Product Designer</p>
+                </li>
 
-            <section>
-                <img src="img/img5.jpg" alt="Ольга Репина, Frontend Developer" width="270px">
-                <h4>Ольга Репина</h4>
-                <p>Frontend Developer</p>
-            </section>
-            <section>
-                <img src="img/img6.jpg" alt="Николай Тарасов, Marketing" width="270px">
-                <h4>Николай Тарасов</h4>
-                <p>Marketing</p>
-            </section>
-            <section>
-                <img src="img/img7.jpg" alt="Михаил Ермаков, UI Designer" width="270px">
-                <h4>Михаил Ермаков</h4>
-                <p>UI Designer</p>
-            </section>
+                <li>
+                    <img src="../img/img5.jpg" alt="Ольга Репина, Frontend Developer" width="270">
+                    <h4>Ольга Репина</h4>
+                    <p>Frontend Developer</p>
+                </li>
+
+                <li>
+                    <img src="../img/img6.jpg" alt="Николай Тарасов, Marketing" width="270">
+                    <h4>Николай Тарасов</h4>
+                    <p>Marketing</p>
+                </li>
+                <li>
+                    <img src="../img/img7.jpg" alt="Михаил Ермаков, UI Designer" width="270">
+                    <h4>Михаил Ермаков</h4>
+                    <p>UI Designer</p>
+                </li>
+            </ul>
         </section>
-    </content>
+    </main>
     <footer>
-        <section>
-            <a href="#">WebStudio</a>
-            <h4>г. Киев, пр-т Леси Украинки, 26</h4>
-            <a href="info@example.com">info@example.com</a>
-            <a href="+38 099 111 11 11">+38 099 111 11 11</a>
-        </section>
+        <a class="logo" href="../index.html"><span class="logo_color">Web</span>Studio</a>
+        <address>г. Киев, <br> пр-т Леси Украинки, 26</address>
+        <address>
+            <a href="mailto:info@example.com">info@example.com</a>
+            <a href="tel:+380991111111">+38 099 111 11 11</a>
+        </address>
     </footer>
 </body>
 
